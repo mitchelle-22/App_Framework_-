@@ -15,6 +15,8 @@
 		609CC9602B05EBC4008C618B /* App_FrameworksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609CC95F2B05EBC4008C618B /* App_FrameworksUITestsLaunchTests.swift */; };
 		609CC96D2B05F6F3008C618B /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609CC96C2B05F6F3008C618B /* Framework.swift */; };
 		609CC96F2B05FE24008C618B /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609CC96E2B05FE24008C618B /* FrameworkGridView.swift */; };
+		609CC9752B061B73008C618B /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609CC9742B061B73008C618B /* FrameworkDetailView.swift */; };
+		609CC9772B06212D008C618B /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609CC9762B06212D008C618B /* AFButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		609CC95F2B05EBC4008C618B /* App_FrameworksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_FrameworksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		609CC96C2B05F6F3008C618B /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
 		609CC96E2B05FE24008C618B /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
+		609CC9742B061B73008C618B /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
+		609CC9762B06212D008C618B /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +102,11 @@
 			children = (
 				609CC9422B05EBBD008C618B /* App_FrameworksApp.swift */,
 				609CC96E2B05FE24008C618B /* FrameworkGridView.swift */,
+				609CC9742B061B73008C618B /* FrameworkDetailView.swift */,
 				609CC96C2B05F6F3008C618B /* Framework.swift */,
 				609CC9462B05EBC3008C618B /* Assets.xcassets */,
 				609CC9482B05EBC3008C618B /* Preview Content */,
+				609CC9762B06212D008C618B /* AFButton.swift */,
 			);
 			path = "App-Frameworks";
 			sourceTree = "<group>";
@@ -260,8 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				609CC9752B061B73008C618B /* FrameworkDetailView.swift in Sources */,
 				609CC96F2B05FE24008C618B /* FrameworkGridView.swift in Sources */,
 				609CC96D2B05F6F3008C618B /* Framework.swift in Sources */,
+				609CC9772B06212D008C618B /* AFButton.swift in Sources */,
 				609CC9432B05EBBD008C618B /* App_FrameworksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
