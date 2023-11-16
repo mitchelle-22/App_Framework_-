@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		609CC9432B05EBBD008C618B /* App_FrameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609CC9422B05EBBD008C618B /* App_FrameworksApp.swift */; };
-		609CC9452B05EBBD008C618B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609CC9442B05EBBD008C618B /* ContentView.swift */; };
 		609CC9472B05EBC3008C618B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 609CC9462B05EBC3008C618B /* Assets.xcassets */; };
 		609CC94A2B05EBC3008C618B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 609CC9492B05EBC3008C618B /* Preview Assets.xcassets */; };
 		609CC9542B05EBC4008C618B /* App_FrameworksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609CC9532B05EBC4008C618B /* App_FrameworksTests.swift */; };
 		609CC95E2B05EBC4008C618B /* App_FrameworksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609CC95D2B05EBC4008C618B /* App_FrameworksUITests.swift */; };
 		609CC9602B05EBC4008C618B /* App_FrameworksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609CC95F2B05EBC4008C618B /* App_FrameworksUITestsLaunchTests.swift */; };
+		609CC96D2B05F6F3008C618B /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609CC96C2B05F6F3008C618B /* Framework.swift */; };
+		609CC96F2B05FE24008C618B /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609CC96E2B05FE24008C618B /* FrameworkGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		609CC93F2B05EBBD008C618B /* App-Frameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App-Frameworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		609CC9422B05EBBD008C618B /* App_FrameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_FrameworksApp.swift; sourceTree = "<group>"; };
-		609CC9442B05EBBD008C618B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		609CC9462B05EBC3008C618B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		609CC9492B05EBC3008C618B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		609CC94F2B05EBC4008C618B /* App-FrameworksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App-FrameworksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +44,8 @@
 		609CC9592B05EBC4008C618B /* App-FrameworksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App-FrameworksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		609CC95D2B05EBC4008C618B /* App_FrameworksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_FrameworksUITests.swift; sourceTree = "<group>"; };
 		609CC95F2B05EBC4008C618B /* App_FrameworksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_FrameworksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		609CC96C2B05F6F3008C618B /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
+		609CC96E2B05FE24008C618B /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				609CC9422B05EBBD008C618B /* App_FrameworksApp.swift */,
-				609CC9442B05EBBD008C618B /* ContentView.swift */,
+				609CC96E2B05FE24008C618B /* FrameworkGridView.swift */,
+				609CC96C2B05F6F3008C618B /* Framework.swift */,
 				609CC9462B05EBC3008C618B /* Assets.xcassets */,
 				609CC9482B05EBC3008C618B /* Preview Content */,
 			);
@@ -257,7 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				609CC9452B05EBBD008C618B /* ContentView.swift in Sources */,
+				609CC96F2B05FE24008C618B /* FrameworkGridView.swift in Sources */,
+				609CC96D2B05F6F3008C618B /* Framework.swift in Sources */,
 				609CC9432B05EBBD008C618B /* App_FrameworksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
