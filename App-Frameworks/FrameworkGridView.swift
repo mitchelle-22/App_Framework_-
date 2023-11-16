@@ -17,12 +17,12 @@ struct FrameworkGridView: View {
     var body: some View {
         VStack{
             LazyVGrid(columns: columns){
-                FrameWorkTitleView(imageName: "app-clip", name: "App Clips")
-                FrameWorkTitleView(imageName: "app-clip", name: "App Clips")
-                FrameWorkTitleView(imageName: "app-clip", name: "App Clips")
-                FrameWorkTitleView(imageName: "app-clip", name: "App Clips")
-                FrameWorkTitleView(imageName: "app-clip", name: "App Clips")
-                FrameWorkTitleView(imageName: "app-clip", name: "App Clips")
+                ForEach(MockData.frameworks){
+                    framework in
+                    FrameWorkTitleView(framework: framework
+                    )
+                }
+                
               
             }
            
@@ -35,18 +35,19 @@ struct FrameworkGridView: View {
 
 #Preview {
     FrameworkGridView()
+        .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
 }
 
 struct FrameWorkTitleView: View{
-    let imageName : String
-    let name : String
+  
+    let framework: Framework
     
     var body : some View{
         VStack{
-            Image(imageName)
+            Image(framework.imageName)
                 .resizable()
                 .frame(width: 90,height: 90)
-            Text(name)
+            Text(framework.name)
                 .font(.title2)
                 .fontWeight(.semibold)
                 .scaledToFit()
