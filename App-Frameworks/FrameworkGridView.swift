@@ -10,27 +10,25 @@ import SwiftUI
 struct FrameworkGridView: View {
     
     let columns: [GridItem] = [GridItem(.flexible()),
-        GridItem(.flexible()),
-        GridItem(.flexible())
+                               GridItem(.flexible()),
+                               GridItem(.flexible())
     ]
     
     var body: some View {
-        VStack{
-            LazyVGrid(columns: columns){
-                ForEach(MockData.frameworks){
-                    framework in
-                    FrameWorkTitleView(framework: framework
-                    )
+        NavigationView {
+            ScrollView {
+                LazyVGrid(columns: columns){
+                    ForEach(MockData.frameworks){
+                        framework in
+                        FrameWorkTitleView(framework: framework
+                        )
+                    }
                 }
-                
-              
             }
-           
-        }
             
-        
-        
-    }
+            .navigationTitle("🍏 Frameworks")
+        }
+     }
 }
 
 #Preview {
@@ -54,5 +52,6 @@ struct FrameWorkTitleView: View{
                 .minimumScaleFactor(0.6)
             
         }
+        .padding()
     }
 }
