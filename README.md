@@ -28,10 +28,18 @@ Delve into the MVVM architecture to separate concerns and improve the organizati
 - macOS version compatible with Xcode 15
 
 ## Installation
-1. Clone the repository:
+1. Clone the repository: git clone https://github.com/mitchelle-22/App_Framework_-.git
 2. Open the project in Xcode.
 3. Build and run the project to explore the applications of GridView, ScrollView, Navigation, and MVVM.
 
+## Examples
+You can find code examples and snippets demonstrating the usage of these frameworks in the project's source code.
+
+## Contributing
+Contributions to enhance the examples, provide additional features, or improve the project's structure are welcome. Please refer to the CONTRIBUTING.md file for guidelines.
+
+## License
+Specify the project's license and any relevant terms for using or contributing to the project.
 
 
 
